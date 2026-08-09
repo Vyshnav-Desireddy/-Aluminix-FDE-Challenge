@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://aluminix-backend-dfx9.onrender.com';
 
 export const api = {
   // Tasks
@@ -38,3 +38,4 @@ export const api = {
     return response.json();
   },
 };
+
